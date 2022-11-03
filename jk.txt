@@ -1,0 +1,561 @@
+{
+    "goals": [
+        {
+            "id": 1,
+            "logo": "https://s3.ap-southeast-1.amazonaws.com/www.thestartupbuddy.co/event-img-prod/17e8e7c7-5e80-47ca-809b-265b01650fe5AWS.jpg",
+            "label": "Ipsum is simply dummied text of the printing.",
+            "level": 1,
+            "steps": [
+                {
+                    "step": 0,
+                    "title": "Start now",
+                    "description": "Lorem ipsum dolorrr simit amet",
+                    "is_step_complete": false,
+                    "cards": [
+                        {
+                            "id": 0,
+                            "help_text": "This is text explanation bro..",
+                            "title": "Explanation of this step 0",
+                            "description": "Now, for interaction-heavy pages, smaller text sizes are perfectly acceptable. In fact, depending on the amount of data your user is taking in at once, even 18px text is uncomfortably",
+                            "schema": {
+                                "field_id": 1,
+                                "field_data_type_id": 1,
+                                "props": {
+                                    "placeholder": "",
+                                    "type": "button",
+                                    "type_rule": "",
+                                    "label": "",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": false,
+                                "option": [],
+                                "display_order": 1,
+                                "success_message": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "step": 1,
+                    "title": "Describe your company",
+                    "description": "Lorem ipsum dolorrr simit amet",
+                    "is_step_complete": false,
+                    "cards": [
+                        {
+                            "id": 1,
+                            "help_text": "This is input text explanation bro..",
+                            "title": "Explanation of this task 1",
+                            "description": "What is your company name?",
+                            "schema": {
+                                "field_id": 2,
+                                "field_data_type_id": 1,
+                                "props": {
+                                    "placeholder": "Input your company name here",
+                                    "type": "text",
+                                    "type_rule": "",
+                                    "label": "Company name",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": false,
+                                "option": [],
+                                "display_order": 2,
+                                "success_message": ""
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "help_text": "This is input URL explanation bro..",
+                            "title": "Explanation of this task 2",
+                            "description": "Share your company's linkedin URL here",
+                            "schema": {
+                                "field_id": 2,
+                                "field_data_type_id": 1,
+                                "props": {
+                                    "placeholder": "Input your company's linkedin URL here",
+                                    "type": "url",
+                                    "type_rule": "linkedin",
+                                    "label": "Company LinkedIn",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": false,
+                                "option": [],
+                                "display_order": 3,
+                                "success_message": ""
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "help_text": "This is input email explanation bro..",
+                            "title": "Explanation of this task 3",
+                            "description": "Share your company's email here",
+                            "schema": {
+                                "field_id": 2,
+                                "field_data_type_id": 1,
+                                "props": {
+                                    "placeholder": "Input your company's email here",
+                                    "type": "email",
+                                    "type_rule": "",
+                                    "label": "Company Email",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": false,
+                                "option": [],
+                                "display_order": 4,
+                                "success_message": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "step": 2,
+                    "title": "Funding information",
+                    "description": "Lorem ipsum dolorrr simit amet",
+                    "is_step_complete": false,
+                    "cards": [
+                        {
+                            "id": 6,
+                            "help_text": "This is select explanation bro..",
+                            "title": "Explanation of this task 1",
+                            "description": "What funding round are you raising?",
+                            "schema": {
+                                "field_id": 3,
+                                "field_data_type_id": 2,
+                                "props": {
+                                    "placeholder": "Select on these options",
+                                    "type": "",
+                                    "type_rule": "",
+                                    "label": "",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": true,
+                                "option": [
+                                    {
+                                        "label": "",
+                                        "value": "Boostrapping"
+                                    },
+                                    {
+                                        "label": "",
+                                        "value": "Pre-Seed"
+                                    },
+                                    {
+                                        "label": "",
+                                        "value": "Seed"
+                                    },
+                                    {
+                                        "label": "",
+                                        "value": "Series A"
+                                    },
+                                    {
+                                        "label": "",
+                                        "value": "Series B"
+                                    },
+                                    {
+                                        "label": "",
+                                        "value": "Series C"
+                                    }
+                                ],
+                                "display_order": 1,
+                                "success_message": "great bro!"
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "help_text": "This is input file explanation bro..",
+                            "title": "Explanation of this task 2",
+                            "description": "Upload the .pdf version of your company pitch deck here",
+                            "schema": {
+                                "field_id": 8,
+                                "field_data_type_id": 1,
+                                "props": {
+                                    "placeholder": "Upload the file here",
+                                    "type": "file",
+                                    "type_rule": "",
+                                    "label": "Upload the file here",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 5
+                                },
+                                "has_option": false,
+                                "option": [],
+                                "display_order": 2,
+                                "success_message": "great bro!"
+                            }
+                        },
+                        {
+                            "id": 200,
+                            "help_text": "This is input url explanation bro..",
+                            "title": "Explanation of this task 200",
+                            "description": "Insert your company website URL",
+                            "schema": {
+                                "field_id": 2,
+                                "field_data_type_id": 1,
+                                "props": {
+                                    "placeholder": "Input your company website URL here..",
+                                    "type": "url",
+                                    "type_rule": "",
+                                    "label": "Company website",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": false,
+                                "option": [],
+                                "display_order": 2,
+                                "success_message": "great bro!"
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "help_text": "This is select number bro..",
+                            "title": "Explanation of this task 28989",
+                            "description": "number of your team?",
+                            "schema": {
+                                "field_id": 3,
+                                "field_data_type_id": 1,
+                                "props": {
+                                    "placeholder": "Select on these options",
+                                    "type": "",
+                                    "type_rule": "number",
+                                    "label": "",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": true,
+                                "option": [
+                                    {
+                                        "label": "",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "label": "",
+                                        "value": "10"
+                                    }
+                                ],
+                                "display_order": 1788,
+                                "success_message": "great bro!"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "step": 3,
+                    "title": "Finance information details",
+                    "description": "Lorem ipsum dolorrr simit amet",
+                    "is_step_complete": false,
+                    "cards": [
+                        {
+                            "id": 1,
+                            "help_text": "This is input number explanation bro..",
+                            "title": "Explanation of this task 3",
+                            "description": "Input the revenue you have earned until now",
+                            "schema": {
+                                "field_id": 2,
+                                "field_data_type_id": 1,
+                                "props": {
+                                    "placeholder": "Input your revenue here..",
+                                    "type": "text",
+                                    "type_rule": "money",
+                                    "label": "Company revenue",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": false,
+                                "option": [],
+                                "display_order": 1,
+                                "success_message": "great bro!"
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "help_text": "This is input number explanation bro..",
+                            "title": "Explanation of this task 4",
+                            "description": "Input the cost you have incurred till now",
+                            "schema": {
+                                "field_id": 10,
+                                "field_data_type_id": 1,
+                                "props": {
+                                    "placeholder": "Input your cost incurred here..",
+                                    "type": "text",
+                                    "type_rule": "money",
+                                    "label": "Company incurred",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": false,
+                                "option": [],
+                                "display_order": 2,
+                                "success_message": "great bro!"
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "help_text": "This is input date explanation bro..",
+                            "title": "Explanation of this task 5",
+                            "description": "Based on your revenue and expenditure, when do you expect to reach your break even point?",
+                            "schema": {
+                                "field_id": 6,
+                                "field_data_type_id": 1,
+                                "props": {
+                                    "placeholder": "pick the time here",
+                                    "type": "date",
+                                    "type_rule": "",
+                                    "label": "Company BEP expectation",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": false,
+                                "option": [],
+                                "display_order": 3,
+                                "success_message": "nice bro!"
+                            }
+                        },
+                        {
+                            "id": 89,
+                            "help_text": "This is input number explanation bro..",
+                            "title": "Explanation of this task 89",
+                            "description": "Input your company number registration",
+                            "schema": {
+                                "field_id": 2,
+                                "field_data_type_id": 1,
+                                "props": {
+                                    "placeholder": "Input your company number here..",
+                                    "type": "text",
+                                    "type_rule": "number",
+                                    "label": "Company number registration",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": false,
+                                "option": [],
+                                "display_order": 1,
+                                "success_message": "great bro!"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "title": "Legal information details",
+                    "description": "Lorem ipsum dolorrr simit amet",
+                    "is_step_complete": false,
+                    "cards": [
+                        {
+                            "id": 1,
+                            "help_text": "This is input country explanation bro..",
+                            "title": "Explanation of this task 7",
+                            "description": "Country of Incorporation",
+                            "schema": {
+                                "field_id": 3,
+                                "field_data_type_id": 2,
+                                "props": {
+                                    "placeholder": "Input the country here..",
+                                    "type": "",
+                                    "type_rule": "",
+                                    "label": "Select country",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": false,
+                                "option": [],
+                                "display_order": 4,
+                                "success_message": "great bro!"
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "help_text": "This is text explanation bro..",
+                            "title": "Explanation of this task 8",
+                            "description": "What type of business is your company registered as?",
+                            "schema": {
+                                "field_id": 10,
+                                "field_data_type_id": 1,
+                                "props": {
+                                    "placeholder": "Input your business type here..",
+                                    "type": "text",
+                                    "type_rule": "",
+                                    "label": "Company business type",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": false,
+                                "option": [],
+                                "display_order": 3,
+                                "success_message": ""
+                            }
+                        },
+                        {
+                            "id": 56,
+                            "help_text": "This is textarea autosize explanation bro..",
+                            "title": "Explanation of this task 56",
+                            "description": "Create your first business model canvas",
+                            "schema": {
+                                "field_id": 9,
+                                "field_data_type_id": 1,
+                                "props": {
+                                    "placeholder": "Jot something down..",
+                                    "type": "text",
+                                    "type_rule": "",
+                                    "label": "Key activities (Max 5)",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": false,
+                                "option": [],
+                                "display_order": 6,
+                                "success_message": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "step": 5,
+                    "title": "Introduce your team",
+                    "description": "Lorem ipsum dolorrr simit amet",
+                    "is_step_complete": false,
+                    "cards": [
+                        {
+                            "id": 1,
+                            "help_text": "This is checkbox explanation bro..",
+                            "title": "Explanation of this task 9",
+                            "description": "Which of the following roles are filled in the company?",
+                            "schema": {
+                                "field_id": 4,
+                                "field_data_type_id": 1,
+                                "props": {
+                                    "placeholder": "",
+                                    "type": "checkbox",
+                                    "type_rule": "",
+                                    "label": "",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": true,
+                                "option": [
+                                    {
+                                        "label": "Chief Executive Officer",
+                                        "value": "CEO"
+                                    },
+                                    {
+                                        "label": "Chief Technology Officer",
+                                        "value": "CTO"
+                                    }
+                                ],
+                                "display_order": 1,
+                                "success_message": "great bro!"
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "help_text": "This is slider explanation bro..",
+                            "title": "Explanation of this task 10",
+                            "description": "How many people on your team are working on your company full time?",
+                            "schema": {
+                                "field_id": 7,
+                                "field_data_type_id": 2,
+                                "props": {
+                                    "placeholder": "",
+                                    "type": "",
+                                    "type_rule": "",
+                                    "label": "Amount of full time employees",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": true,
+                                "option": [
+                                    {
+                                        "label": "",
+                                        "value": 0
+                                    },
+                                    {
+                                        "label": "",
+                                        "value": 10
+                                    }
+                                ],
+                                "display_order": 2,
+                                "success_message": ""
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "help_text": "This is switch button explanation bro..",
+                            "title": "Explanation of this task 110",
+                            "description": "Publish your profile to investor?",
+                            "schema": {
+                                "field_id": 5,
+                                "field_data_type_id": 1,
+                                "props": {
+                                    "placeholder": "",
+                                    "type": "radio",
+                                    "type_rule": "",
+                                    "label": "",
+                                    "value": "",
+                                    "required": true,
+                                    "disabled": false,
+                                    "max_data": 0
+                                },
+                                "has_option": true,
+                                "option": [
+                                    {
+                                        "label": "Yes",
+                                        "value": true
+                                    },
+                                    {
+                                        "label": "No",
+                                        "value": false
+                                    }
+                                ],
+                                "display_order": 1,
+                                "success_message": "great bro!"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "title": "Text of the printing and typesetting industry lorem Ipsum is simply dummied.",
+            "required": true,
+            "is_locked": false,
+            "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.",
+            "second_title": "Ut vel hendrerit quam. Nunc sodales nisi varius tempor condimentum.",
+            "total_points": 250,
+            "is_goal_complete": false,
+            "goal_category_logo": "/dashboard/personel-icon.png"
+        }
+    ]
+}
