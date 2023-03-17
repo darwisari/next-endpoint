@@ -1,14 +1,18 @@
-[
-    {
-        "id" : 1,
-        "image_url" : "/shoe-1.jpg"
-    },
-    {
-        "id" : 2,
-        "image_url" : "/shoe-2.jpg"
-    },
-    {
-        "id" : 3,
-        "image_url" : "/shoe-3.jpg"
-    }
-]
+{
+    "products" : [
+        {
+            "id" : 1,
+            "image_url" : "/shoe-1.jpg"
+        },
+        {
+            "id" : 2,
+            "image_url" : "/shoe-2.jpg"
+        },
+        {
+            "id" : 3,
+            "image_url" : "/shoe-3.jpg"
+        }
+    ]
+}
+
+
