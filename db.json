@@ -2,15 +2,24 @@
     "products" : [
         {
             "id" : 1,
-            "image_url" : "/shoe-1.jpg"
+            "image_url" : "/shoe-1.jpg",
+            "price" : 200,
+            "disc_percentage" : 50,
+            "price_after_disc" : 100
         },
         {
             "id" : 2,
-            "image_url" : "/shoe-2.jpg"
+            "image_url" : "/shoe-2.jpg",
+            "price" : 150,
+            "disc_percentage" : 50,
+            "price_after_disc" : 75
         },
         {
             "id" : 3,
-            "image_url" : "/shoe-3.jpg"
+            "image_url" : "/shoe-3.jpg",
+            "price" : 300,
+            "disc_percentage" : 50,
+            "price_after_disc" : 150
         }
     ]
 }
